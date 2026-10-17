@@ -84,7 +84,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "recharts": "^3.10.1",
-    "sharp": "^0.35.4",
+    "sharp": "^0.35.5",
     "tesseract.js": "^7.0.0",
     "typescript": "6.0.3",
     "workflow": "5.0.0-beta.56",
