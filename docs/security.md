@@ -1,5 +1,13 @@
 # HireProof Security Audit & Hardening
 
+On the `mark-siazon/Hackathon-HireProof` fork, the weekly health audit reports
+that duplicate CodeQL is intentionally disabled and verifies the
+[canonical CodeQL workflow](https://github.com/Iron-Mark/Hackathon-HireProof/actions/workflows/codeql.yml).
+It requires a successful analysis of the current canonical default branch
+within the last 10 days and flags fork-only changes outside its explicit
+audit, configuration, and documentation allowlist. The canonical run is
+evidence of scan coverage. Alert counts in the audit are for the fork.
+
 HireProof is built with a **Zero-Trust AI Architecture**. Every layer of the stack—from the network edge to the LLM orchestration—is hardened against modern attack vectors.
 
 ## Dependency Update Compatibility
